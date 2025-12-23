@@ -1,7 +1,9 @@
 I read and implemented all requirements including hidden logic.
 
 ## Setup
-git clone
+git clone https://github.com/nightf/tasktest.git
+
+cd tasktest
 
 composer install
 
