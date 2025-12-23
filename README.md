@@ -11,6 +11,8 @@ npm run build
 
 copy .env.example to .env
 
+php artisan key:generate
+
 run migrations (will create the sqlite db):
 
 php artisan migrate
