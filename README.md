@@ -11,7 +11,9 @@ npm run build
 
 copy .env.example to .env
 
-copy database.sqlite to '/database' folder
+run migrations (will create the sqlite db):
+
+php artisan migrate
 
 db seed command:
 
