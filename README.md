@@ -1,17 +1,23 @@
 I read and implemented all requirements including hidden logic.
 
 ## Setup
+git clone
+
 composer install
 
 npm install
+
 npm run build
 
-run migrations:
-php artisan migrate
+copy .env.example to .env
 
-seed db:
+copy database.sqlite to '/database' folder
+
+db seed command:
+
 php artisan db:seed --class=TasksTableSeeder
 
+create user -> login -> go to Dashboard -> in menu: Tasks
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
